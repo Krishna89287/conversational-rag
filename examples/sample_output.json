@@ -1,0 +1,24 @@
+{
+  "turn_1": {
+    "message": "What is in the free plan?",
+    "response": {
+      "answer": "MOCK: grounded answer using history and context.",
+      "citations": [
+        "D1",
+        "D2"
+      ],
+      "turns": 1
+    }
+  },
+  "turn_2": {
+    "message": "and the pro one?",
+    "response": {
+      "answer": "MOCK: grounded answer using history and context.",
+      "citations": [
+        "D1",
+        "D2"
+      ],
+      "turns": 2
+    }
+  }
+}

@@ -31,3 +31,20 @@ Python, FastAPI, session memory, BM25 retrieval, Groq LLM (optional), Docker, Gi
 
 ## License
 MIT
+
+## Workflow diagram
+
+```mermaid
+flowchart LR
+  U[User message] --> H[Load session memory]
+  H --> RF[Resolve follow-up]
+  RF --> R[Retrieve + cite]
+  R --> A[Answer]
+  A --> M[Update memory]
+```
+
+## Sample output and charts
+
+![Citations per turn](assets/citations_per_turn.png)
+
+A runnable sample request and its real output are in [examples/sample_output.json](examples/sample_output.json).
